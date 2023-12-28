@@ -173,6 +173,37 @@ h6{
     margin-top: 5px; 
 }
 
+.contact-container {
+    display: flex;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-column svg {
+    fill: #3498db;
+    margin-bottom: 20px;
+}
+
+.contact-column p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact-column a {
+    color: #3498db;
+    text-decoration: none;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }

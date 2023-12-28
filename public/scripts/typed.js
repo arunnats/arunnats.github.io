@@ -1,7 +1,7 @@
 // typedAnimation.js
 document.addEventListener('DOMContentLoaded', function() {
     var options = {
-      strings: ["web developer", "programmer", "FOSS enthusiast","continuous learner","human"],
+      strings: ["web developer", "programmer", "FOSS enthusiast","fast learner","creator"],
       typeSpeed: 55,
       backSpeed: 30,
       loop: true
