@@ -1,0 +1,166 @@
+body {
+    margin: 10px;
+    overflow-x: hidden;
+    background-color: #0a192f;
+  }
+
+  .header-container {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-outline-custom-color {
+    color: #60f3d4;
+    border-color: #60f3d4;
+    margin-top: 5px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-custom-color:hover {
+    color: #fff; 
+    background-color: #0a192f; 
+    border-color: #60f3d4; 
+}
+
+.btn-align {
+    margin-top: 4px !important;
+}
+
+header img {
+    height: 50px;
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight:400;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-link:hover {
+    color: #60f3d4;
+}
+
+.nav-link:active,
+.nav-link:focus {
+    color: #fff; 
+}
+
+main{
+    margin: auto;
+    width: 75%;
+}
+
+h6{
+    color: #60f3d4;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.name{
+    color: #cdd6f7;
+    font-size: 70px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.typed-text{
+    color: #8893b1    ;
+    font-size: 70px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+.hero-container p{
+    max-width: 73%;
+    color: #8893b1 ;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.hero-container p a{
+    color: #60f3d4 ;
+    text-decoration: none;
+}
+
+.hero-container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px; 
+}
+
+.hero-container ul li {
+    margin-right: 20px;
+}
+
+.about-content{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.about-content about-text{
+    width: 60%;
+    padding: 10px;
+}
+
+.about-content p{
+    color: #8893b1 ;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.about-content h4{
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.about-content img{ 
+    width: 40%;
+    padding: 10px;
+    height: fit-content;
+}
+
+@media (min-width: 320px) {
+    .nav-link {
+        margin-top: 3px;
+    }
+
+    .btn-outline-custom-color {
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 481px) {
+    
+}
+
+@media (min-width: 641px) {
+    
+
+}
+
+@media (min-width: 961px) {
+    
+}
+
+@media (min-width: 1025px) {
+    
+}
+
+@media (min-width: 1281px) {
+    
+}
