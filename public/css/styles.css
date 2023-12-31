@@ -6,7 +6,7 @@ body {
 
   .header-container {
     margin: auto;
-    width: 100%;
+    width: 96%;
 }
 
 .btn-outline-custom-color {
@@ -112,6 +112,14 @@ h6{
     padding: 10px;
 }
 
+.about-text h4 {
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
 .about-content p {
     color: #8893b1;
     font-size: 16px;
@@ -120,7 +128,7 @@ h6{
     font-weight: 500;
 }
 
-.about-content h4 {
+.featured-project h4 {
     font-size: 32px;
     color: #cdd6f7;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -128,14 +136,23 @@ h6{
     font-weight: 500;
 }
 
-.about-content img {
+.about-content-img {
     width: 40%;
     padding: 10px;
-    height: fit-content;
+    
+}
+
+.about-content-img img{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    border-radius: 3%;
 }
 
 .skill-title {
-    font-size: 32px;
+    padding-left: 20px;
+    font-size: 24px;
     color: #cdd6f7;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: justify;
@@ -146,6 +163,9 @@ h6{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    
 }
 
 .skill {
@@ -153,16 +173,52 @@ h6{
     flex: 0 0 20%;
 
 }
+.skills{
+    margin: auto;
+    width: 95%;
+    
+}
 
+.border{
+    border: 2px solid #60f3d4;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-color: #60f3d4 !important;
+}
+
+#Skills{
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+#Contact{
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+#Projects{
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
 .skill-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.skill img {
+.skill-img {
     height: 40px;
-    width: 40px;
 }
 
 .skill-text {
@@ -171,37 +227,160 @@ h6{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     margin-top: 5px; 
+}   
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.featured-project{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #60f3d4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.featured-project p {
+    color: #8893b1;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.featured-title{
+    font-size: 16px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.featured-project h4 {
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.project-img{
+    width: 30%;
+}
+
+.featured-project img {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: fit-content;
+}
+
+.featured-project ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px; 
+}
+
+.featured-project ul li {
+    margin-right: 20px;
+}
+
+.left-ul{
+    flex-direction:row;
+}
+
+.right-ul{
+    flex-direction:row-reverse;
+}
+
+
+.projects-container h4{
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+
+.other-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-title{
+    display: block;
+    font-size: 16px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.project-card{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #60f3d4;
+    border-radius: 3%;
 }
 
 .contact-container {
     display: flex;
-    width: 300px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-column {
-    flex: 1;
-    padding: 20px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
-.contact-column svg {
-    fill: #3498db;
-    margin-bottom: 20px;
-}
-
-.contact-column p {
-    margin: 0;
+.contact-container h4 {
+    font-size: 32px;
+    color: #cdd6f7;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
-.contact-column a {
-    color: #3498db;
+.contact-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-container img {
+    height: 50px;
+    padding: 10px;
+}
+
+.contact-container a {
+    color: #60f3d4;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
     text-decoration: none;
+    margin-left: 5px; /* Add a margin to separate the image and the text */
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
