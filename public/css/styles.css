@@ -730,6 +730,19 @@ html {
     .alt{
         flex-direction: row;
     }
+
+    .about-content{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-text {
+        width: 60%;
+    }
+    .about-content-img{
+        display: flex;
+        width: 40%;
+    }
 }
 
 @media (min-width: 961px) {
@@ -1039,7 +1052,7 @@ html {
     #About{
         font-size: 38px;
     }
-    
+
     .skill-text {
         font-size: 16px;
     }
