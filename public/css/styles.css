@@ -1,3 +1,10 @@
+.project-img img {
+	display: block;
+	margin: 0 auto;
+	max-width: 90%;
+	height: auto;
+}
+
 body {
 	margin: 10px;
 	overflow-x: hidden;
@@ -618,10 +625,10 @@ html {
 		padding: 10px;
 	}
 
-	.project-img img {
+	/* .project-img img {
 		height: auto;
-		width: 140vh;
-	}
+		width: 40vh;
+	} */
 
 	.other-title {
 		font-size: 12px;
@@ -757,7 +764,7 @@ html {
 	}
 
 	/* .project-img img {
-		height: 140px;
+		height: 70vh;
 		width: auto;
 	} */
 
@@ -902,7 +909,7 @@ html {
 	}
 
 	/* .project-img img {
-		height: 130px;
+		height: 70vh;
 		width: auto;
 	} */
 
@@ -1130,11 +1137,6 @@ html {
 		width: 85%;
 		padding: 10px;
 	}
-
-	/* .project-img img {
-		height: 200px;
-		width: auto;
-	} */
 
 	.featured-project p {
 		font-size: 20px;
