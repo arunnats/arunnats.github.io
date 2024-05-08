@@ -393,6 +393,38 @@ h6 {
 .project-img img {
 	display: block;
 	margin: 0 auto;
+	max-width: 90%;
+	height: auto;
+}
+
+@media (max-width: 480px) {
+	.project-img img {
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.project-img img {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.project-img img {
+		max-width: 70%;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.project-img img {
+		max-width: 60%;
+	}
+}
+
+@media (min-width: 1281px) {
+	.project-img img {
+		max-width: 50%;
+	}
 }
 
 .featured-project img {
